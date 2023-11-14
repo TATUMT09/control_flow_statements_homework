@@ -11,4 +11,13 @@ def main(a):
     Returns:
         string: the message to print
     """
-    return
+    if a>9 and a<100:
+        if a%2==1:
+            return"two-digit odd number"
+        return"two-digit even number"
+    if a>99 and a<10000:
+       if a%2==1:
+           return"three-digit odd number"
+       return "three-digit even number"
+    return" bu narse 2 xonali yokida 3 xonali emas"
+print(main(2))

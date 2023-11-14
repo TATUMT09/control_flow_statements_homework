@@ -8,5 +8,6 @@ def main(a):
         a: integer
     Returns:
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False.
-    """
-    return
+    """ 
+    if a>9 and a<100:
+        return
